@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* utility classes */
+.text-primary {
+  color: blue;
+  font-size: 4rem;
+}
+
+#navbar {
+  background: burlywood;
+
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  color: #fff;
+  top: 0;
+  z-index: 1;
+
+}
+
+.logo {
+  text-align: center;
+}
+
+#navbar ul li a {
+  padding-right: 3rem;
+  text-decoration: none;
+  font-size: 0.75rem;
+}
+
+#navbar ul {
+  list-style: none;
+
+}
+
+
+
+
+
+
+
+
+/* showcase */
+#showcase {
+  background: url('../img/showcase.jpeg') no-repeat center center/cover;
+  height: 100vh;
+
+}
+
+#showcase .line-height {
+  font-size: 4rem;
+  line-height: 0.2;
+}
+
+#showcase .bg-red {
+
+  line-height: 8;
+  background: blue;
+  padding: 0.75rem;
+
+
+}
+
+.showcase-content {
+  margin: 00.75rem;
+
+
+
+}
+
+.showcase-content .line {
+  font-size: 2rem;
+  line-height: 3;
+}
+
+/* showcase .showcase-content */
+#showcase .showcase-content {
+  top: 65px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+/* btn */
+.btn {
+  background: turquoise;
+  padding: 1rem 2rem;
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#showcase .showcase-content {
+  text-align: center;
+  justify-content: center;
+  padding: 0.2rem;
+}
+
+#navbar ul li a:hover {
+  background: gray;
+  border-radius: 5px;
+}
+
+#navbar ul a:hover {
+  padding: 0.2rem;
+}
+
+/* our work */
+#our-work .color {
+  line-height: 2;
+  font-size: 2rem;
+}
+
+#our-work .work-text {
+  line-height: 2;
+  padding: 3rem;
+  background: turquoise;
+
+
+
+}
+
+#our-work {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#our-work div {
+  flex: 1;
+}
+
+#our-work .img {
+  background: turquoise url('../img/what.jpg') no-repeat center center/cover;
+
+}
+
+
+/* secton:book/why */
+.same {
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.book-text {
+  padding: 3rem;
+  line-height: 2;
+  background: turquoise;
+
+
+
+
+}
+
+#book-why {
+  display: flex;
+  flex-direction: row-reverse;
+
+
+}
+
+#book-why div {
+  flex: 1;
+}
+
+#book-why .why-img {
+  background: rgba(0, 0, 0, 0.1) url('../img/showcase.jpeg') no-repeat center center/cover;
+
+}
+
+#about-us .book-write {
+  line-height: 2;
+  padding: 3rem;
+  background: turquoise;
+  width: 53.5%;
+}
+
+#about-us {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+
+#about-us div {
+  flex: 1;
+}
+
+#about-us .about-us-img {
+  background: url('../img/about\ us.jpg') no-repeat center center/cover;
+
+}
+
+  /*contact  */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+  #contact {
+    padding:2rem;
+    background: url('../img/lol.jpg') no-repeat center center/cover;
+  }
+  .contact-form h2 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .contact-form p {
+    text-align: center;
+    line-height: 2rem;
+    font-size: 2rem;
+  }
+  .contact-form label {
+    display: block;
+    text-align: center;
+  }
+
+  .contact-form input {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .contact-form ::placeholder{
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  /* submit bottom */
+   #contact .chc {
+    background: #333;
+  }
+/*footer  */
+.end {
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+

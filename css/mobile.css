@@ -1,0 +1,37 @@
+/* smartphone */
+@media(max-width:500px) {
+   #navbar ul {
+   
+}
+#navbar {
+display: flex;    
+   
+}
+#showcase .line-height {
+    font-size: 2rem;
+    justify-content: space-between;
+}
+
+
+ #our-work .img{
+    display: none;
+ }
+ 
+ #book-why .why-img {
+    display: none;
+ }
+
+ #about-us .about-us-img{
+   display: none;
+ }
+ #showcase .showcase-content {
+    top: 65px;
+    margin-right: -2rem;
+    margin-left: -2rem;
+ }
+
+ #showcase img {
+    width: 50%;
+    height: 50%;
+ }
+}
